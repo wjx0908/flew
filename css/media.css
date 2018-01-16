@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1200px){
+	
+	.header_inner{width:940px;}
+	.b_inner .text{width:80%;}
+	.two{width:95%}
+	.two .top{width:48%}
+	.two .bot .list{width:31%;}
+	.two .bot .list .b_text{width:auto;}
+	.three .inner{width:95%}
+	.three .top{width:48%}
+	.three .bot .pic_list{width:970px;margin:0 auto;}
+	.three .bot .pic_list a{width:31%;}
+	.three .bot .pic_list .mid{margin:0 29px;}
+	.four{width:95%;}
+	.four .top{width:48%}
+	.five .inner{width:95%;}
+	.five .f_bot{ width:940px;margin:0 auto;}
+	.five .f_bot a{width:455px;}
+	.five .top{width:48%}
+	.six .top{width:48%}
+	.six .inner{width:95%;}
+	.six .bot{width:970px;margin:0 auto;}
+	.six .bot a{width:165px;margin-right:20px;}
+	footer .inner{width:95%;}
+    footer .t_left p{width:200px;}
+	footer .t_mid{width:auto;}
+	footer .t_mid ul{float:none;}
+	footer .f_bot{width:95%;}
+
+	
+
+}
+@media screen and (max-width:992px){
+	
+	.header_inner{width:720px;}
+	.two .bot .list{float:none;width:720px;margin:0 auto;}
+	.two .bot .list .b_text{width:auto;}
+	.three .bot{text-align:center;}
+	.three .bot .pic_list{width:100%}
+	.three .bot .pic_list a{float:none;width:720px;display:inline-block;}
+	.three .bot .pic_list .mid{margin:0 0 50px 0;}
+	.five .f_bot{ width:720px;margin:0 auto;}
+	.five .f_bot a{width:345px;}
+	.six .bot{width:720px;margin:0 auto;}
+	.six .bot a{width:658px;margin-bottom:30px;margin-right:0px;}
+	footer .t_left,footer .t_mid,footer .t_right{float:none;width:720px;margin:0 auto;}
+    footer .t_left p{width:100%;}
+	footer .t_left{padding-left:0;}
+	footer .t_mid ul{float:left;}
+	footer .t_right{padding-right:0;}
+	footer{height:auto;}
+}
+@media screen and (max-width:769px){
+	.b_inner .text h2{font-size:40px;}
+	header nav{display:none;}
+	.header_inner{width:100%;}
+	.header_inner i{display:block;position:fixed;right:20px;top:0;z-index:2;}
+	.two .bot .list{width:100%;}
+	.three .bot .pic_list a{width:100%;}
+	.five .f_bot{ width:100%;margin:0 auto;}
+	.five .f_bot a{width:100%;}
+	.six .bot{width:100%;margin:0 auto;}
+	.six .bot a{width:100%;margin-bottom:30px;padding:0;}
+	footer .t_left,footer .t_mid,footer .t_right{width:93%;}
+	footer .t_mid ul{padding-right:7%;}
+}
+
